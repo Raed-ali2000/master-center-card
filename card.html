@@ -27,6 +27,11 @@
     box-shadow: 0 24px 80px rgba(0,0,0,0.5);
   }
 
+  @media (max-width: 480px) {
+    body { padding: 0; align-items: flex-start; }
+    .card { max-width: 100%; min-height: 100vh; border-radius: 0; box-shadow: none; }
+  }
+
   /* HEADER */
   .header {
     position: relative;
